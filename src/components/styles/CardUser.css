@@ -1,0 +1,28 @@
+.CardUser {
+  width: 80%;
+  max-width: 800px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+
+}
+
+.CardUser_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.CardUser_options {
+  display: flex;
+  gap: 5px;
+  margin: 2px;
+}
+
+
+.CardUser_options > button {
+  width: 40px;
+}

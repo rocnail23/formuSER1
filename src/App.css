@@ -1,0 +1,38 @@
+.Home{
+    background-color: blueviolet;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   
+}
+
+.Home_users{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.noShow{
+    display: none;
+}
+
+.container_btn-create{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container_btn-create > button{
+   width: 50%;
+   height: 30px;
+   border-radius: 10px;
+}
