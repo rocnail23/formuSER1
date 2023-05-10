@@ -24,7 +24,7 @@ const HomePages = () => {
   };
 
   const createUser = (data) => {
-    const url = "http://users-crud.academlo.tech/users/";
+    const url = "https://users-crud.academlo.tech/users/";
     axios.post(url, data).then((res) => {
       console.log(res);
       dispatch(userThunks());
@@ -32,7 +32,7 @@ const HomePages = () => {
   };
 
   const deleteUser = (id) => {
-    const url = `http://users-crud.academlo.tech/users/${id}/`;
+    const url = `https://users-crud.academlo.tech/users/${id}/`;
     axios.delete(url).then((res) => {
       console.log(res);
       dispatch(userThunks());
@@ -40,7 +40,7 @@ const HomePages = () => {
   };
 
   const editUser = (id,data ) => {
-    const url = `http://users-crud.academlo.tech/users/${id}/`;
+    const url = `https://users-crud.academlo.tech/users/${id}/`;
     axios.put(url, data)
     .then((res) => {
       console.log(res);
